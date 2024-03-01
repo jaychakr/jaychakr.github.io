@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    background-image: url("lesson04-mock2-banner-image.jpg");
+    height: 350px;
+    color: white;
+    text-align: left;
+}
+.title {
+    font-size: 48px;
+    position: absolute;
+    left: 175px;
+    top: 75px;
+}
+.subtitle {
+    font-size: 32px;
+    position: absolute;
+    left: 175px;
+    top: 150px;
+}
+nav {
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+}
+nav div {
+    text-align: left;
+    line-height: 60px;
+    margin-left: 175px;
+    font-weight: bold;
+}
+.content {
+    height: 700px;
+    display: flex;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+.story {
+    flex: 70%;
+    margin-right: 75px;
+}
+.sidebar {
+    flex: 30%;
+}
+footer {
+    color: white;
+    background-image: url("lesson04-mock4-footer-image.jpg");
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+footer * {
+    padding-bottom: 10px;
+}
