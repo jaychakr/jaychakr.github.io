@@ -16,11 +16,13 @@ article {
     border: 1px solid black;
     margin: 1% 5%;
     background-color: beige;
-    padding: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 h1 {
     width: 15%;
-    margin: 10px auto;
+    margin: 20px auto;
     background-color: green;
 }
 h2 {
@@ -28,20 +30,28 @@ h2 {
     margin: 10px auto;
     background-color: aquamarine;
 }
-ul {
-    list-style-type: none;
+.assignments {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: auto;
 }
-li {
-    width: 25%;
-    margin: 5px auto;
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.assignment {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(197, 179, 88);
+    width: 25%;
 }
 img {
     border: 1px solid black;
-}
-p {
-    background-color: white;
-    margin: 10px 10%;
+    margin: auto;
 }
 footer p {
     width: 10%;
