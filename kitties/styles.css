@@ -1,6 +1,10 @@
 * {
     font-family: sans-serif;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     background-image: url("lesson04-mock2-banner-image.jpg");
     height: 350px;
