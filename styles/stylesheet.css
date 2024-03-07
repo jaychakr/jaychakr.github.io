@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-color: #E5E4E2;
     text-align: center;
     font-family: "Lakki Reddy", Garamond, serif;
     font-weight: 400;
@@ -45,11 +45,22 @@ h2 {
     justify-content: space-evenly;
     margin: 15px;
 }
+.row:nth-child(3) .assignment {
+    background-color: #CD7F32;
+}
+.row:nth-child(2) .assignment {
+    background-color: silver;
+}
 .assignment {
     display: flex;
     flex-direction: column;
     background-color: rgb(197, 179, 88);
     width: 25%;
+    transition-property: font-size;
+    transition-duration: 3s;
+}
+.assignment:hover {
+    font-size: 36px;
 }
 img {
     border: 1px solid black;
