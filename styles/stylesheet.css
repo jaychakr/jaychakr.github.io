@@ -4,6 +4,10 @@ body {
     font-family: "Lakki Reddy", Garamond, serif;
     font-weight: 400;
     font-style: normal;
+    transition-property: background-color;
+}
+body:hover {
+    background-color: yellowgreen;
 }
 header nav {
     background-color: lightcyan;
@@ -14,6 +18,13 @@ nav {
     background-color: white;
     font-family: "Lakki Reddy", "Copperplate", serif;
 }
+nav a {
+    transition-property: font-size;
+    transition-duration: 3s;
+}
+nav a:hover {
+    font-size: 36px;
+}
 article {
     border: 1px solid black;
     margin: 1% 5%;
@@ -21,11 +32,20 @@ article {
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    transition-property: background-color;
+}
+article:hover {
+    background-color: palevioletred;
 }
 h1 {
-    width: 15%;
+    width: 20%;
     margin: 20px auto;
     background-color: green;
+    transition-property: font-size;
+    transition-duration: 3s;
+}
+h1:hover {
+    font-size: 36px;
 }
 h2 {
     width: 15%;
@@ -73,4 +93,3 @@ footer p {
     font-size: 12px;
     background-color: lightcyan;
 }
-
