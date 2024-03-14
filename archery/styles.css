@@ -12,6 +12,7 @@ header h3 {
     font-family: Arial;
     font-size: 18px;
     color: #03a3df;
+    border: solid 3px rgb(3, 163, 223);
 }
 footer {
     background-image: url("footerImage.jpg");
