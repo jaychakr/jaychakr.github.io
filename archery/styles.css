@@ -1,3 +1,7 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     background-color: rgb(3, 163, 223);
     display: flex;
@@ -8,10 +12,15 @@ header h3 {
     font-size: 17px;
     margin-left: 55%;
 }
-.services, .about {
+.information {    
+    display: grid;
+    grid-template-columns: 50% 50%;
     font-family: Arial;
     font-size: 18px;
     color: #03a3df;
+    border: solid 3px rgb(3, 163, 223);
+}
+.services, .about {
     border: solid 3px rgb(3, 163, 223);
 }
 footer {
@@ -23,17 +32,21 @@ footer p, footer h3 {
     font-family: Arial;
     font-size: 17px;
 }
+.instructors {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-bottom: 50px;
+}
 .instructor {
     background-color: rgb(27, 68, 127);
-    margin: 20px 0;
     padding: 20px 10px;
-    display: flex;
+    border: 1px solid rgb(236, 183, 34);
 }
 .instructor h2 {
     border-bottom: solid 1px rgb(236, 183, 34);
+    text-align: left;
 }
 .call-out {
-    margin-left: 50px;
     font-family: Arial;
     font-size: 30px;
     color: white;
