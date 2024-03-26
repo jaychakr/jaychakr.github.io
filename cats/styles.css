@@ -37,17 +37,16 @@ nav div {
     font-weight: bold;
 }
 .content {
-    height: 700px;
     display: flex;
-    margin-left: 175px;
-    margin-right: 175px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .story {
-    flex: 70%;
-    margin-right: 75px;
+    flex: 80%;
+    margin-right: 25px;
 }
 .sidebar {
-    flex: 30%;
+    flex: 20%;
 }
 footer {
     color: white;
