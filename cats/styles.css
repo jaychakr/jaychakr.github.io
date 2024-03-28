@@ -70,6 +70,9 @@ footer a {
 .dog-footer a {
     color: black;
 }
+.dog-footer h1 {
+    color: white;
+}
 footer * {
     padding-bottom: 10px;
 }
