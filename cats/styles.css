@@ -4,6 +4,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 header {
     background-image: url("lesson04-mock2-banner-image.jpg");
@@ -36,17 +37,20 @@ nav div {
     margin-left: 175px;
     font-weight: bold;
 }
+nav div a {
+    padding: 20px;
+}
 .content {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
 }
 .story {
-    flex: 80%;
-    margin-right: 25px;
+    flex: 70%;
+    margin-right: 50px;
 }
 .sidebar {
-    flex: 20%;
+    flex: 30%;
 }
 footer {
     color: white;
@@ -54,6 +58,9 @@ footer {
     text-align: center;
     padding-top: 75px;
     padding-bottom: 50px;
+}
+footer a {
+    color: rgb(135, 207, 225);
 }
 .dog-footer {
     background-image: url("https://cahrc.com/wp-content/uploads/2022/07/comthe-5-best-dog-breeds-for-families-in-southern-california-banner.jpg");
