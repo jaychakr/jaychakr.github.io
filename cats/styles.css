@@ -14,6 +14,7 @@ header {
 }
 .dog-header {
     background-image: url("https://www.grrmf.org/wp-content/uploads/2015/10/header_img-10.jpg");
+    color: black;
 }
 .title {
     font-size: 48px;
@@ -64,6 +65,10 @@ footer a {
 }
 .dog-footer {
     background-image: url("https://cahrc.com/wp-content/uploads/2022/07/comthe-5-best-dog-breeds-for-families-in-southern-california-banner.jpg");
+    color: black;
+}
+.dog-footer a {
+    color: black;
 }
 footer * {
     padding-bottom: 10px;
